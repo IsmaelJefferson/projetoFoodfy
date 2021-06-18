@@ -129,3 +129,35 @@ footer p{
     line-height: 16px;
     text-align: center;
 }
+
+
+/**==Pag Sobre==*/
+
+#Sobre-Content{
+    margin-bottom: 4.6%;
+}
+
+#Sobre-Content h1{
+    margin-top: 4.6%;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #111111;
+}
+
+#Sobre-Content p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #444444;
+    margin-top: 1.8%;
+    text-align: justify;
+}
+
+#Sobre-Content h3{
+    margin-top: 2.7%;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    font-weight: bold;
+}
