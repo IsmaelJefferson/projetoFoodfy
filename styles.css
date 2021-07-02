@@ -177,6 +177,8 @@ footer p{
     position: fixed;
     top: 0;
     background-color: rgba(0, 0, 0, 0.705);
+    opacity: 0;
+    visibility: hidden;
 }
 
 .modal-overlay .modal{
@@ -189,7 +191,7 @@ footer p{
 }
 
 
-.modal-overlay .modal .img-modal{
+.modal-overlay .modal .img-modal-area{
     width: 600px;
     height: 200px;
     margin: 0 auto;
@@ -227,4 +229,12 @@ footer p{
     color: #999999;
     margin-top: 60px;
     cursor: pointer;
+}
+
+
+/**==Modal actived==*/
+
+.modal-overlay.actived{
+    opacity: 1;
+    visibility: visible;
 }
